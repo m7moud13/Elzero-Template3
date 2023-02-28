@@ -1645,6 +1645,26 @@ textarea {
     border: 2px solid white;
     width: 75px;
 }
+.scroll-to-top {
+    padding: 8px 10px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 5px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+    z-index: 10;
+    transition: var(--main-transition);
+}
+.scroll-to-top:hover {
+    background-color: var(--main-color-alt);
+}
+.scroll-to-top i {
+    color: white;
+    font-size: 15px;
+}
 @media (max-width:1199px) {
     .footer .container {
         grid-template-columns: 1fr;
